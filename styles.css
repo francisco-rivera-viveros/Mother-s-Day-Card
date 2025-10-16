@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    margin: 0px;
+}
+
+
+.i::-webkit-scrollbar {
+    display: none;
+  }
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajita{
+    width: 90vw;
+    height: 100vh;
+    background-color: pink;
+    background-image: url("https://get.wallhere.com/photo/patterns-background-texture-surface-1065682.jpg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sobre{
+    height: 100%;
+
+}
+
+.i{
+    width: 626px;
+    height: 100vh;
+    overflow-y: auto;
+    scroll-snap-type: y mandatory;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+
+
+    font-family: "Dancing Script", cursive;
+}
+
+.parte{
+    width: 626px;
+    height: 100vh;
+    scroll-snap-align: start;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.parte h1{
+    font-size: 50px;
+}
+
+.parte p{
+    margin: 80px;
+    font-size: 20px;
+}
+
+
+#l{
+    position: relative;
+    top: 60px;
+    left: -140px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+#s{
+    position: relative;
+    top: -60px;
+    left: 140px;
+    width: 320px;
+}
+
+#t{
+    position: relative;
+    top: -60px;
+    left: -80px;
+    width: 360px;
+}
+
+#a{
+    position: relative;
+    top: 140px;
+    left: 300px;
+    width: 360px;
+    margin: 0px;
+}
+
+#play{
+    position: absolute;
+    top: 2.5%;
+    left: 5%;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/0/375.png");
+    background-size: cover;
+    border: none;
+    background-color: pink;
+    border-radius: 100%;
+
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgb(0, 0, 0);
+
+}
+
+#mute{
+    position: absolute;
+    top: 2.5%;
+    left: 7%;
+    background-image: url("https://cdn.icon-icons.com/icons2/1674/PNG/512/volumeoff_111172.png");
+    background-size: cover;
+    border: none;
+    background-color: pink;
+    border-radius: 100%;
+    border: 1px solid rgb(0, 0, 0);
+
+    
+
+    width: 24px;
+    height: 24px;
+
+}
+
